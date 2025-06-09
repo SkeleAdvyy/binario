@@ -150,6 +150,26 @@
       z-index: -1;
       background: transparent;
     }
+  .top-button {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  background-color: var(--accent);
+  color: #fff;
+  font-size: 1.5rem;
+  padding: 8px 14px;
+  border-radius: 50%;
+  text-decoration: none;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  transition: transform 0.2s ease, background-color 0.3s ease;
+  z-index: 1000;
+}
+
+.top-button:hover {
+  background-color: #a200ff;
+  transform: scale(1.1);
+}
+
   </style>
 </head>
 <body>
@@ -159,6 +179,8 @@
     <h1>TRADUTTORE</h1>
     <p>BINARIO ⇄ TESTO</p>
   </section>
+
+  <a href="https://skeleadvyy.github.io/mybio/" class="top-button">></a>
 
   <section>
     <h2 class="section-title">Convertitore</h2>
